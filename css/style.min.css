@@ -2595,7 +2595,7 @@ body {
     }
     .catalog,
     .story,
-    .map,    card,
+    .map,    .card,
     .small-info,
     .feedback,
     .description,
@@ -2821,7 +2821,7 @@ body {
     .catalog,
     .story,
     .map,
-    card,
+    .card,
     .feedback,
     .small-info,
     .photogallery,
