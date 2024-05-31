@@ -2787,6 +2787,11 @@ body {
 }
 
 @media(max-width: 575px) {
+
+    .hero-slide img{
+        background-position: left;
+    }
+    
     .photogallery .swiper-wrapper {
         width: 100%
     }
