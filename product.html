@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новая жизнь</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="up-button"><img src="img/arrow_up.png" alt=""></div>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <a href="/" class="header__logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="header__info">
+                    <a href="tel:+79000000000" class="header__info-item">
+                        <img src="img/phone-icon.png" alt="">
+                        <span>+7 (900) 000 00 00</span>
+                    </a>
+                    <a href="mailto:example@mail.ru" class="header__info-item">
+                        <img src="img/mail-icon.png" alt="">
+                        <span>example@mail.ru</span>
+                    </a>
+                    <div class="header__info-item header__place">
+                        <img src="img/place-icon.png" alt=""> Калужская область, Боровский район, д. Климовское
+                    </div>
+                </div>
+            </div>
+            <div class="header-mobile">
+                <div class="header-mobile__wrapper">
+                    <div class="header-mobile__menu">
+                        <img src="img/sidebar-menu.png" alt="">
+                    </div>
+                    <a href="/" class="header-mobile__logo">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                    <div class="header-mobile__button">
+                        <button class="button" data-fancybox="" data-src="#consult">Бесплатная консультация</button>
+                    </div>
+                    <div class="header-mobile__actions">
+                        <a href="tel:+79000000000" class="header-mobile__icon header-mobile__icon-bg">
+                            <img src="img/phone-icon.png" alt="">
+                        </a>
+                        <a href="mailto:example@mail.ru" class="header-mobile__icon header-mobile__icon-bg">
+                            <img src="img/mail-icon.png" alt="">
+                        </a>
+                        <a href="#" class="header-mobile__icon">
+                            <img src="img/search.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <aside class="sidebar">
+        <div class="sidebar__wrapper">
+            <div class="sidebar__menu">
+                <img src="img/sidebar-menu.png" alt="">
+            </div>
+            <a href="#" class="sidebar__search">
+                <img src="img/search.png" alt="">
+            </a>
+            <div class="sidebar__line"></div>
+            <a href="#" class="sidebar__icon">
+                <img src="img/wa.png" alt="">
+            </a>
+            <a href="#" class="sidebar__icon">
+                <img src="img/tg.png" alt="">
+            </a>
+            <a href="#" class="sidebar__icon">
+                <img src="img/vk.png" alt="">
+            </a>
+            <div class="sidebar__line"></div>
+            <div class="sidebar__button ">
+                <button data-fancybox="" data-src="#consult" class="button">Бесплатная консультация</button>
+            </div>
+        </div>
+    </aside>
+    <div class="menu">
+        <div class="menu__wrapper">
+            <div class="menu__close">
+                <img src="img/close.png" alt="">
+            </div>
+            <ul class="menu__nav">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О ферме</a></li>
+                <li><a href="product.html">Наши животные</a></li>
+                <li><a href="#">Фотогалерея</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <div class="menu__phone">
+                <a href="+79000000000">+7 (900) 000 00 00</a>
+            </div>
+            <button data-fancybox="" data-src="#consult" class="menu__button button">Бесплатная консультация</button>
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__wrapper">
+                <ul class="nav__list">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О ферме</a></li>
+                    <li class="nav__downtoggle">
+                        <a href="product.html">Наши животные <img src="img/arrow_up.svg" alt=""></a>
+                        <ul class="nav__downmenu">
+                            <li><a href="product.html">Порода 1</a></li>
+                            <li><a href="product.html">Порода 2</a></li>
+                            <li><a href="product.html">Порода 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Фотогалерея</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="breadcrumbs">
+            <div class="container">
+                <ul class="breadcrumbs__items">
+                    <li class="breadcrumbs__item"> <a href="/">Главная</a></li>
+                    <li class="breadcrumbs__item"> <a href="#">Наши животные</a></li>
+                    <li class="breadcrumbs__item breadcrumbs__active"> <a href="#">Коза</a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="card">
+            <div class="container">
+                <div class="card__wrapper">
+                    <div class="title-text">Коза заанеская </div>
+                    <div class="card__image">
+                        <div class="card__image-wrapper">
+                            <img src="img/image-card.png" alt="">
+                            <div class="plus-wrapper">
+                                <div class="plus plus-one">
+                                    <div class="plus-main">
+                                        <div class="plus-text">Вкус и запах молока</div>
+                                        <p>+</p>
+                                    </div>
+                                    <div class="plus-modal-text">
+                                        Козочки альпийской породы покладисты, обладают спокойным и неприхотливым характером и не создают проблем хозяину.
+                                    </div>
+                                </div>
+                                <div class="plus plus-two">
+                                    <div class="plus-main">
+                                        <div class="plus-text">Сыропригодное молоко</div>
+                                        <p>+</p>
+                                    </div>
+                                    <div class="plus-modal-text">
+                                        Козочки альпийской породы покладисты, обладают спокойным и неприхотливым характером и не создают проблем хозяину.
+                                    </div>
+                                </div>
+                                <div class="plus plus-three">
+                                    <div class="plus-main">
+                                        <div class="plus-text">Высокие показатели здоровья</div>
+                                        <p>+</p>
+                                    </div>
+                                    <div class="plus-modal-text">
+                                        Козочки альпийской породы покладисты, обладают спокойным и неприхотливым характером и не создают проблем хозяину.
+                                    </div>
+                                </div>
+                                <div class="plus plus-four plus-right">
+                                    <div class="plus-main">
+                                        <div class="plus-text">Послушный характер</div>
+                                        <p>+</p>
+                                    </div>
+                                    <div class="plus-modal-text">
+                                        Козочки альпийской породы покладисты, обладают спокойным и неприхотливым характером и не создают проблем хозяину.
+                                    </div>
+                                </div>
+                                <div class="plus plus-five plus-right">
+                                    <div class="plus-main">
+                                        <div class="plus-text">Продуктивность</div>
+                                        <p>+</p>
+                                    </div>
+                                    <div class="plus-modal-text">
+                                        Козочки альпийской породы покладисты, обладают спокойным и неприхотливым характером и не создают проблем хозяину.
+                                    </div>
+                                </div>
+                                <div class="plus plus-six plus-right">
+                                    <div class="plus-main">
+                                        <div class="plus-text">Долгая лактация</div>
+                                        <p>+</p>
+                                    </div>
+                                    <div class="plus-modal-text">
+                                        Козочки альпийской породы покладисты, обладают спокойным и неприхотливым характером и не создают проблем хозяину.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="description">
+            <div class="container">
+                <div class="description__wrapper">
+                    <div class="description__title title-text">О ферме</div>
+                    <div class="description__text">
+                        <p>
+                            Наша ферма расположена в живописном уголке Калужской области, где благоприятные климатические условия и заботливое отношение к животным создают идеальные условия для их развития.
+                        </p>
+                        <p>
+                            Мы гордимся тем, что предлагаем только самых здоровых и породных животных нашим клиентам. Вся наша поголовье проходит строгий отбор по генетическим характеристикам, молочной продуктивности и экстерьеру.
+                        </p>
+                    </div>
+                    <div class="description__subtitle">Подробнее</div>
+                    <div class="description__text description__text-small">
+                        <p>
+                            Наша ферма расположена в живописном уголке Калужской области, где благоприятные климатические условия и заботливое отношение к животным создают идеальные условия для их развития.
+                        </p>
+                        <ul>
+                            <li>Энергетическая ценность / калорийность от 61 до 74 ккал.</li>
+                            <li>Условия хранения: Хранить при температуре 4±2 °С.</li>
+                            <li>Срок годности 18 суток</li>
+                        </ul>
+                    </div>
+                    <div class="description__subtitle description__subtitle-little">Вкусно и полезно</div>
+                    <div class="description__text description__text-small">
+                        <p>
+                            Молоко пастеризованное 2,5% жирности имеет особо насыщенный сливочный вкус, позволяющий получить максимум удовольствия от него.
+                        </p>
+                        <ol>
+                            <li>Семейный формат 1400г.</li>
+                            <li>1400г.</li>
+                            <li>Срок годности 18 суток</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="photogallery">
+            <div class="photogallery__wrapper">
+                <div class="title-text">Фотогалерея</div>
+                <div class="photogallery__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide photogallery__slide">
+                            <a href="#" data-fancybox="gallery">
+                                <img src="img/photogallery.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide photogallery__slide">
+                            <a href="#" data-fancybox="gallery">
+                                <img src="img/photogallery-2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide photogallery__slide">
+                            <a href="#" data-fancybox="gallery">
+                                <img src="img/photogallery.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide photogallery__slide">
+                            <a href="#" data-fancybox="gallery">
+                                <img src="img/photogallery-2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide photogallery__slide">
+                            <a href="#" data-fancybox="gallery">
+                                <img src="img/photogallery.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide photogallery__slide">
+                            <a href="#" data-fancybox="gallery">
+                                <img src="img/photogallery-2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide photogallery__slide">
+                            <a href="#" data-fancybox="gallery">
+                                <img src="img/photogallery.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide photogallery__slide">
+                            <a href="#" data-fancybox="gallery">
+                                <img src="img/photogallery-2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide photogallery__slide">
+                            <a href="#" data-fancybox="gallery">
+                                <img src="img/photogallery.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide photogallery__slide">
+                            <a href="#" data-fancybox="gallery">
+                                <img src="img/photogallery-2.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-next-button about__slider-next">
+                        <img src="img/arrow-slider-right.png" alt="">
+                    </div>
+                    <div class="swiper-prev-button about__slider-prev">
+                        <img src="img/arrow-slider-left.png" alt="">
+                    </div>
+                    <div class="about__slider-pagination"></div>
+                </div>
+                <a href="#" class="button button-arrow button-more">Смотреть больше<img src="img/arrow_right.png"
+                        alt=""></a>
+            </div>
+        </section>
+        <section class="small-info">
+            <div class="small-info__wrapper">
+                <p>Наша ферма расположена в живописном уголке Калужской области, где благоприятные климатические условия и заботливое отношение к животным создают идеальные условия для их развития.</p>
+                <p>Мы гордимся тем, что предлагаем только самых здоровых и породных животных нашим клиентам. Вся наша поголовье проходит строгий отбор по генетическим характеристикам, молочной продуктивности и экстерьеру. </p>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="container">
+                <div class="feedback__wrapper">
+                    <div class="feedback__image">
+                        <img src="img/feedback-image.png" alt="">
+                    </div>
+                    <div class="feedback__block">
+                        <div class="feedback__title">Оставьте свои контакты для обратной связи</div>
+                        <form action="" class="feedback__form">
+                            <input type="text" placeholder="Ваше имя" name="" id="">
+                            <input type="tel" class="maskphone" placeholder="Телефон" name="" id="">
+                            <button class="feedback__button">Отправить</button>
+                            <div class="feedback__approve">
+                                <p>Отправляя форму вы подтверждаете согласие на</p>
+                                <a href="#">обработку персональных данных</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="small-info downblock">
+            <div class="small-info__wrapper">
+                <p>Наша ферма расположена в живописном уголке Калужской области, где благоприятные климатические условия и заботливое отношение к животным создают идеальные условия для их развития.</p>
+                <p>Мы гордимся тем, что предлагаем только самых здоровых и породных животных нашим клиентам. Вся наша поголовье проходит строгий отбор по генетическим характеристикам, молочной продуктивности и экстерьеру. </p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="footer__lists">
+                    <ul class="footer__list">
+                        <li class="footer__list-title"><a href="#">Главная</a></li>
+                        <li class="footer__list-title"><a href="#">О ферме</a></li>
+                        <li class="footer__list-title"><a href="#">Фотогалерея</a></li>
+                        <li class="footer__list-title"><a href="#">Новости</a></li>
+                        <li class="footer__list-title"><a href="#">Контакты</a></li>
+                    </ul>
+                    <ul class="footer__list">
+                        <li class="footer__list-title"><a href="#">Наши животные</a></li>
+                        <li><a href="#">Порода 1</a></li>
+                        <li><a href="#">Порода 2</a></li>
+                        <li><a href="#">Порода 3</a></li>
+                        <li><a href="#">Порода 4</a></li>
+                    </ul>
+                </div>
+                <div class="footer__brevis">
+                    <img src="img/brevis.png" alt="">
+                    <span>Создание сайта - <br> <a href="https://www.brevis-site.ru/">интернет агенство
+                            “BREVIS”</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="overlay">
+        <div class="popup" id="consult">
+            <div data-fancybox-close class="popup__close">
+                <img src="img/close.png" alt="">
+            </div>
+            <div class="popup__title">Оставьте ваши данные и мы перезвоним!</div>
+            <form class="popup__form">
+                <div class="popup__form-item">
+                    <div class="popup__form-name">
+                        Ваше имя
+                    </div>
+                    <div class="popup__form-input">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="popup__form-item">
+                    <div class="popup__form-name">
+                        Ваш номер телефона
+                    </div>
+                    <div class="popup__form-input">
+                        <input type="text" class="maskphone">
+                    </div>
+                </div>
+                <div class="popup__form-checkbox">
+                    <label for="consultCheck">
+                        <input type="checkbox" checked id="consultCheck" value="Y">
+                        <span class="popup__form-label">Я подтверждаю согласие на
+                            <a href="">обработку моих персональных данных</a>
+                        </span>
+                    </label>
+                </div>
+                <div class="popup__form-button">
+                    <button class="button" type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
